@@ -1,0 +1,48 @@
+// resets, base layout
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $color-theme;
+    font-family: $font-body;
+    color: $color-accent1;
+}
+
+h1, h2{
+    font-family: $font-heading;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: $font-body;
+}
+
+input{
+    border: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    padding: $small $xsmall 0 $small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9rem;
+
+    @include screen(desktop){
+        padding: 4rem 4rem 0 4rem;
+    }
+}
+
+footer{
+    color: $color-theme;
+}

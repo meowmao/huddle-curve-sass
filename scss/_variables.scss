@@ -1,0 +1,29 @@
+// variables for fonts, colors, sizes
+
+//colors
+$color-button: hsl(322, 100%, 66%);
+$color-btnhover:  hsl(321, 100%, 78%);
+$color-error: hsl(0, 100%, 63%);
+$color-accent1: hsl(192, 100%, 9%);
+$color-accent2: hsl(207, 100%, 98%);
+$color-theme: hsl(255, 100%, 100%);
+$color-statsp: hsl(0, 1%, 65%);
+
+//font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+$font-heading: 'Poppins', sans-serif;
+$font-main: 400;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+$font-body: 'Open Sans', sans-serif;
+$font-light: 400;
+$font-bold: 600;
+$font-dark: 700;
+
+//spacing
+$xsmall: 1.5rem;
+$small: 2rem;
+$medium: 3rem;
+
+
+//screen-size
+// $screen-size: 0;

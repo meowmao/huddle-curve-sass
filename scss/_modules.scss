@@ -1,0 +1,21 @@
+// buttons, textboxes
+
+.cta-head{
+    padding: 0.3rem 1.3rem 0.3rem 1.3rem;
+    border: 1px solid $color-button;
+    border-radius: 25px;
+    color: $color-button;
+}
+
+.cta{
+    background-color: $color-button;
+    color: $color-theme;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 1.5625rem;
+    display: block;
+    width: 15.625rem;
+    padding: 0.8rem 0 0.8rem 0;
+    
+}
